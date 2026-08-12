@@ -1,0 +1,10 @@
+name = "stimul-food-site"
+compatibility_date = "2026-08-01"
+pages_build_output_dir = "dist"
+
+# После создания базы D1 добавьте привязку через панель Cloudflare Pages
+# или раскомментируйте блок и укажите настоящий идентификатор базы.
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "stimul-food-leads"
+# database_id = "ЗАМЕНИТЬ"

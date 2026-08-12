@@ -1,0 +1,30 @@
+{
+  "brand": "STIMUL FOOD",
+  "city": "Молодечно",
+  "meals_per_day": 5,
+  "trial_offer": {"days": 1, "total": 42.9, "eligibility": "Первый день программы «Лёгкий ритм»"},
+  "programs": [
+    {"id":"control-1400","line":"Лёгкий ритм","kcal":1400,"goal":"Для умеренного снижения энергетической ценности","price":43.9,"color":"#C86A5B","image":"assets/images/programs/program-1400.webp"},
+    {"id":"control-1600","line":"Мягкий контроль","kcal":1600,"goal":"Для спокойного рабочего дня и умеренной активности","price":45.9,"color":"#E47B54","image":"assets/images/programs/program-1600.webp"},
+    {"id":"balance-1800","line":"Ровный баланс","kcal":1800,"goal":"Для поддержания формы и обычного ритма","price":47.9,"color":"#3E8A6B","image":"assets/images/programs/program-1800.webp"},
+    {"id":"balance-2000","line":"Активный баланс","kcal":2000,"goal":"Для насыщенного дня и регулярной активности","price":49.9,"color":"#17604F","image":"assets/images/programs/program-2000.webp"},
+    {"id":"energy-2300","line":"Сила дня","kcal":2300,"goal":"Для высокой повседневной активности","price":53.9,"color":"#D39A2E","image":"assets/images/programs/program-2300.webp"},
+    {"id":"gain-2700","line":"Уверенный набор","kcal":2700,"goal":"Для повышенной энергетической ценности","price":58.9,"color":"#6F5A9F","image":"assets/images/programs/program-2700.webp"}
+  ],
+  "pricing": {
+    "currency": "BYN",
+    "discounts": [
+      {"days":1,"discount":0,"name":"Один день"},
+      {"days":3,"discount":0.02,"name":"Три дня"},
+      {"days":5,"discount":0.03,"name":"Рабочая неделя"},
+      {"days":7,"discount":0.04,"name":"Семь дней"},
+      {"days":14,"discount":0.06,"name":"Две недели"},
+      {"days":28,"discount":0.08,"name":"Четыре недели"}
+    ]
+  },
+  "meal_times": ["07:30","10:30","13:30","16:30","19:00"],
+  "meal_times_note": "Время — пример удобной последовательности, а не обязательный режим.",
+  "recipe_note": "Пищевая ценность рассчитана по текущим рецептурам и уточняется при производственной проверке.",
+  "allergen_note": "Фильтр показывает аллергены в составе текущей рецептуры.",
+  "availability_note": "Доступность дня, район и окно получения подтверждаются после заявки."
+}
